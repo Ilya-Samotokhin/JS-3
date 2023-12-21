@@ -19,7 +19,7 @@ const output1 = `Hello my name is ${name} and my age is ${
 console.log(output1);
 */
 
-//Свойство
+/*Свойство
 console.log(firstName.length);
 console.log(firstName.toUpperCase());
 console.log(firstName.toLowerCase());
@@ -33,3 +33,4 @@ console.log(firstName.repeat(10));
 const password = '    my super pass     '; // нужно убрать пробелы
 
 console.log(password.trim());
+*/
