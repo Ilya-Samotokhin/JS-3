@@ -96,12 +96,11 @@ function sumAll(...numbers) {
 console.log(sumAll(1, 2, 3, 4, 5));
 */
 
-/* Closures
- */
+/* Closures Замыкание
 // Функция в которой есть другая функция > Пример задачи, есть человек с одним именем, но нужно добавлять разные фамилии
 function createPerson(name) {
-	return function (lastName) {
-		console.log(name + ' ' + lastName);
+  return function (lastName) {
+    console.log(name + ' ' + lastName);
 	};
 }
 
@@ -109,3 +108,4 @@ const addLastName = createPerson('Ilya');
 
 addLastName('Samotokhin');
 addLastName('Minin');
+*/
